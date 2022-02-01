@@ -1,0 +1,30 @@
+body {
+  background-color: blueviolet;
+}
+
+.container {
+  position: relative;
+}
+
+.tooltip {
+  background-color: #eaeaea;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+  display: none;
+  font-size: 14px;
+  position: absolute;
+  padding: 10px;
+  z-index: 100;
+}
+
+.tooltip.show {
+  display: block;
+}
+
+.tooltip p {
+  margin: 5px;
+}
+
+.tooltip small {
+  display: inline-block;
+  margin-top: 10px;
+}
